@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## KeyboardLocker
 
-You can use the [editor on GitHub](https://github.com/Raykazan/KeyboardLocker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Tool to disable and re-enable the default keyboard.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This tool will lock the keyboard as you need.
 
-### Markdown
+The need to clean my keyboard led me to this solution. Hope this can help someone in any way.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### For Now...
+
+For now it has been tested on my Kubuntu machine.
 
 ```markdown
-Syntax highlighted code block
+The .desktop file has the Exec line commented, so you need to put the path and uncomment the line yourself.
 
-# Header 1
-## Header 2
-### Header 3
+# The .desktop file
 
-- Bulleted
-- List
+[Desktop Entry]
+Comment=
+#Exec=/path/to/program/KeyboardLocker/klock.py
+GenericName=Bloqueador de teclado
+Icon=yast-keyboard
+Categories=Utilities; Tools;
+Name=KeyboardLocker
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Raykazan/KeyboardLocker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Any** _help and improvements_ are welcome!
