@@ -29,4 +29,4 @@ Terminal=0
 TerminalOptions=
 Type=Application
 
-**Any** _help and improvements_ are welcome!
+Any help and improvements are welcome!
