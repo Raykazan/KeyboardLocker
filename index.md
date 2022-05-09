@@ -27,7 +27,7 @@ For now it has been tested on my Kubuntu machine.
     Terminal=0
     TerminalOptions=
     Type=Application  
-    ´´´
+    ```
     
 
 Any help and improvements are welcome!
