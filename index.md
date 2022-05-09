@@ -16,7 +16,7 @@ The .desktop file has the Exec line commented, so you need to put the path and u
 # The .desktop file
     [Desktop Entry]
     Comment=
-    #Exec=/path/to/program/KeyboardLocker/klock.py
+    `#Exec=/path/to/program/KeyboardLocker/klock.py`
     GenericName=Bloqueador de teclado
     Icon=yast-keyboard
     Categories=Utilities; Tools;
@@ -26,7 +26,7 @@ The .desktop file has the Exec line commented, so you need to put the path and u
     StartupNotify=true
     Terminal=0
     TerminalOptions=
-    Type=Application  
+    Type=Application
 ```
     
 
