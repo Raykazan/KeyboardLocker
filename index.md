@@ -1,6 +1,6 @@
 ## KeyboardLocker
 
-Tool to disable and re-enable the default keyboard.
+A linux tool to disable and re-enable the default keyboard.
 
 This tool will lock the keyboard as you need.
 
