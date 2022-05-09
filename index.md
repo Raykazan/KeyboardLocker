@@ -26,8 +26,7 @@ For now it has been tested on my Kubuntu machine.
     StartupNotify=true
     Terminal=0
     TerminalOptions=
-    Type=Application
-    
+    Type=Application  
 ´´´
     
 
