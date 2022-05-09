@@ -1,6 +1,8 @@
 # KeyboardLocker
 Tool to disable and re-enable the default keyboard.
 
+This tool will lock the keyboard as you need.
+
 The need to clean my keyboard led me to this solution. 
 Hope this can help someone in any way.
 
