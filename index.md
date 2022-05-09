@@ -12,8 +12,8 @@ For now it has been tested on my Kubuntu machine.
 
 ```markdown
 
-    The .desktop file has the Exec line commented, so you need to put the path and uncomment the line yourself.
-    # The .desktop file
+The .desktop file has the Exec line commented, so you need to put the path and uncomment the line yourself.
+# The .desktop file
     [Desktop Entry]
     Comment=
     #Exec=/path/to/program/KeyboardLocker/klock.py
